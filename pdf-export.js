@@ -78,28 +78,28 @@
         }
         .print-brand .print-body h2 {
           box-sizing: border-box !important;
-          height: 6.2mm !important;
+          height: 7mm !important;
           margin-top: 2mm !important;
-          padding: 0 1mm !important;
-          display: flex !important;
-          align-items: center !important;
-          justify-content: center !important;
-          line-height: 1.1 !important;
+          margin-bottom: 0 !important;
+          padding: 1.55mm 1mm 1mm !important;
+          display: block !important;
+          line-height: 3mm !important;
+          background: rgba(255,255,255,.72) !important;
         }
         .print-brand .print-box {
           box-sizing: border-box !important;
-          height: 6mm !important;
-          min-height: 6mm !important;
+          height: 7mm !important;
+          min-height: 7mm !important;
           margin: 0 !important;
-          padding: 0.8mm 1.7mm !important;
-          display: flex !important;
-          align-items: center !important;
-          line-height: 1.15 !important;
+          padding: 1.45mm 1.7mm 1mm !important;
+          display: block !important;
+          line-height: 3mm !important;
         }
         .print-brand .print-question {
           box-sizing: border-box !important;
-          padding: 1.5mm !important;
-          line-height: 1.2 !important;
+          min-height: 12mm !important;
+          padding: 1.8mm 1.5mm 1.2mm !important;
+          line-height: 3.3mm !important;
         }
       `;
       document.head.appendChild(temporaryStyle);
